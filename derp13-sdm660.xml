@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Tracking -->
+  <remote name="track" fetch="https://github.com" />
+
+<!-- Trees -->
+  <project path="device/motorola/beckham" name="DerpFest-Devices/device_motorola_beckham" remote="track" revision="13" />
+  <project path="device/motorola/evert" name="DerpFest-Devices/device_motorola_evert" remote="track" revision="13" />
+  <project path="device/motorola/lake" name="DerpFest-Devices/device_motorola_lake" remote="track" revision="13" />
+  <project path="device/motorola/msm8998-common" name="DerpFest-Devices/device_motorola_msm8998-common" remote="track" revision="13" />
+
+<!-- Vendors -->
+  <project path="vendor/motorola/beckham" name="DerpFest-Devices/vendor_motorola_beckham" remote="track" revision="13" />
+  <project path="vendor/motorola/evert" name="DerpFest-Devices/vendor_motorola_evert" remote="track" revision="13" />
+  <project path="vendor/motorola/lake" name="DerpFest-Devices/vendor_motorola_lake" remote="track" revision="13" />
+  <project path="vendor/motorola/msm8998-common" name="DerpFest-Devices/vendor_motorola_msm8998-common" remote="track" revision="13" />
+
+<!-- Kernel -->
+  <project path="kernel/motorola/msm8998" name="DerpFest-Devices/android_kernel_motorola_msm8998" remote="track" revision="13" />
+
+<!-- Remove -->
+<remove-project name="packages_apps_DerpLauncher"/>
+
+<!-- Source -->
+  <project path="packages/apps/DerpLauncher" name="Vhmit/packages_apps_DerpLauncher" remote="track" groups="pdk-fs" revision="13" />
+
+</manifest>
