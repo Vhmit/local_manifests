@@ -4,6 +4,11 @@
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
 
+<!-- Additional -->
+  <project path="hardware/motorola" name="DerpFest-Devices/hardware_motorola" remote="track" revision="13" />
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="track" revision="lineage-20" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="track" revision="lineage-20" />
+
 <!-- Trees -->
   <project path="device/motorola/beckham" name="DerpFest-Devices/device_motorola_beckham" remote="track" revision="13" />
   <project path="device/motorola/evert" name="DerpFest-Devices/device_motorola_evert" remote="track" revision="13" />
