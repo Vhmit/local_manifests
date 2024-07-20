@@ -3,6 +3,7 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
+  <remote name="gitea" fetch="https://gitea.com" />
 
 <!-- Additional -->
   <project path="hardware/motorola" name="DerpFest-Devices/hardware_motorola" remote="track" revision="13" />
@@ -29,5 +30,8 @@
 
 <!-- Source -->
   <project path="packages/apps/DerpLauncher" name="Vhmit/packages_apps_DerpLauncher" remote="track" groups="pdk-fs" revision="13" />
+
+<!-- Keys -->
+  <project path="vendor/derp/signing/keys/" name="Vhmit/vendor_signing_keys" remote="gitea" revision="master" />
 
 </manifest>
