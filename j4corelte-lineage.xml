@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Tracking -->
+  <remote name="track" fetch="https://gitea.com" />
+  <remote name="ssh" fetch="ssh://git@github.com/Vhmit" />
+
+<!-- Trees -->
+  <project path="device/samsung/j4corelte" name="j4corelte-stuffs/device_samsung_j4corelte" remote="track" revision="lineage-18.1" />
+  <project path="vendor/samsung/j4corelte" name="j4corelte-stuffs/vendor_samsung_j4corelte" remote="track" revision="lineage-18.1" />
+  <project path="kernel/samsung/j4corelte" name="j4corelte-stuffs/kernel_samsung_j4corelte" remote="track" revision="lineage-18.1" />
+
+<!-- Keys -->
+  <project path="vendor/lineage-priv/keys" name="Vhmit/vendor_signing_keys" remote="track" revision="keys-11" />
+
+<!-- Additional -->
+  <project path="ih8sn" name="ih8sn" remote="ssh" revision="master" />
+  <project path="script-build" name="script-bot" remote="ssh" revision="j4corelte">
+    <linkfile src="builder.sh" dest="script-build/builder.sh" />
+  </project>
+
+</manifest>
