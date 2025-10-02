@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Track -->
+  <remote name="private" fetch="ssh://git@github.com/Vhmit" />
+
+  <!-- Keys -->
+  <project path="vendor/lineage-priv/keys" name="vendor_signing_keys" remote="private" revision="revived" />
+
+</manifest>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<!-- Device repos -->
-	<project name="frazerecho/android_device_lge_hammerhead" path="device/lge/hammerhead" />
-	<project name="frazerecho/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
-	<project name="frazerecho/android_vendor_lge-1" path="vendor/lge" />
-</manifest>

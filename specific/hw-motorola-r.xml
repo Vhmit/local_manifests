@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Track -->
+  <remote name="specific" fetch="https://github.com/" revision="lineage-18.1" />
+
+  <!-- Additional -->
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="specific" />
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="specific" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="specific" />
+
+</manifest>
