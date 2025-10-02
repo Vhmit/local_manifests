@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<!-- Device repos -->
-	<project name="nexus5oof/device_lge_hammerhead" path="device/lge/hammerhead" />
-	<project name="nexus5oof/kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
-	<project name="nexus5oof/vendor_lge" path="vendor/lge" />
-</manifest>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<!-- Device repos-->
-	<project name="LineageOS/android_device_htc_flounder" path="device/htc/flounder" />
-	<project name="LineageOS/android_device_htc_flounder_lte" path="device/htc/flounder_lte" />
-	<project name="LineageOS/android_kernel_htc_flounder" path="kernel/htc/flounder" />
-	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" />
-</manifest>

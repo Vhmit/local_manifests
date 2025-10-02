@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Track -->
+  <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="lineage-17.1" />
+
+  <!-- Additional -->
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="motolegacy" />
+  <project path="ih8sn" name="althafvly/ih8sn" revision="master" remote="github" />
+
+  <!--Trees-->
+  <project path="device/motorola/jeter" name="device_motorola_jeter" remote="motolegacy" />
+  <project path="kernel/motorola/jeter" name="kernel_motorola_jeter" remote="motolegacy" />
+  <project path="vendor/motorola/jeter" name="vendor_motorola_jeter" remote="motolegacy" />
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Track -->
+  <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="lineage-18.1" />
+  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="rvc" />
+
+  <!-- Additional -->
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="motolegacy" />
+  <project path="ih8sn" name="althafvly/ih8sn" revision="master" remote="github" />
+  <project path="patches" name="android_patches" revision="master" remote="motolegacy" />
+
+  <!-- ProtonAOSP -->
+  <remove-project name="crdroidandroid/android_external_zlib" />
+  <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" />
+  <remove-project name="crdroidandroid/android_external_jemalloc-new" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="proton" />
+
+  <!--Trees-->
+  <project path="device/motorola/jeter" name="device_motorola_jeter" revision="crdroid-11.0" remote="motolegacy" />
+  <project path="kernel/motorola/jeter" name="kernel_motorola_jeter" remote="motolegacy" />
+  <project path="vendor/motorola/jeter" name="vendor_motorola_jeter" remote="motolegacy" />
+
+</manifest>
