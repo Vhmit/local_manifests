@@ -3,13 +3,11 @@
 
   <!-- Track -->
   <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="lineage-18.1" />
-  <remote name="gapps" fetch="https://gitlab.com/MindTheGapps" />
 
   <!-- Additional -->
   <project path="hardware/motorola" name="android_hardware_motorola" remote="motolegacy" />
-  <project path="ih8sn" name="althafvly/ih8sn" revision="master" remote="github" />
   <project path="patches" name="android_patches" revision="master" remote="motolegacy" />
-  <project path="vendor/gapps" name="vendor_gapps" revision="rho" remote="gapps" clone-depth="1" />
+  <project path="vendor/extras" name="android_vendor_extras" revision="master" remote="motolegacy" clone-depth="1" />
 
   <!-- Trees -->
   <project path="device/motorola/deen" name="device_motorola_deen" remote="motolegacy" />

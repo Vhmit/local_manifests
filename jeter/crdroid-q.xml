@@ -6,7 +6,7 @@
 
   <!-- Additional -->
   <project path="hardware/motorola" name="android_hardware_motorola" remote="motolegacy" />
-  <project path="ih8sn" name="althafvly/ih8sn" revision="master" remote="github" />
+  <project path="vendor/extras" name="android_vendor_extras" revision="master" remote="motolegacy" clone-depth="1" />
 
   <!--Trees-->
   <project path="device/motorola/jeter" name="device_motorola_jeter" revision="crdroid-10.0" remote="motolegacy" />
