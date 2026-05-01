@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Track -->
+  <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="lineage-18.1" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-18.1" />
+
+  <!-- Additional -->
+  <project path="external/bson" name="android_external_bson" remote="lineageos" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
+  <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
+
+  <!-- Trees -->
+  <project path="device/motorola/deen" name="device_motorola_deen" remote="motolegacy" revision="crdroid-11.0" />
+  <project path="device/motorola/deen-kernel" name="device_motorola_deen-kernel" remote="motolegacy" />
+  <project path="vendor/motorola/deen" name="vendor_motorola_deen" remote="motolegacy" />
+
+</manifest>
