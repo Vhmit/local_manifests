@@ -1,18 +1,14 @@
-## Sync the manifest:
+## Instructions:
 
 ```
-mkdir .repo/local_manifests
+git clone https://github.com/Vhmit/local_manifests manifests
 ```
 ```
-curl https://raw.githubusercontent.com/Vhmit/local_manifests/main/$DEVICE/$MANIFEST_NAME > .repo/local_manifests/manifest.xml
-```
-be sure to replace $DEVICE and $MANIFEST_NAME with a device codename and manifest name, that are available.
-
-Example:
-```
-mkdir .repo/local_manifests && curl https://raw.githubusercontent.com/Vhmit/local_manifests/main/deen/manifest-r.xml > .repo/local_manifests/manifest.xml
+./manifests/sync_manifest.sh
 ```
 
-After that do 
-```repo sync -c -j8 --force-sync --no-clone-bundle --no-tags```
-to get both the rom and device sources.
+## Sync the ROM+manifest:
+
+```
+repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
+```
