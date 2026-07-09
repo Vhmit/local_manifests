@@ -4,6 +4,7 @@
   <!-- Track -->
   <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="lineage-18.1" />
   <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-18.1" />
+  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="rvc" />
 
   <!-- Additional -->
   <project path="external/bson" name="android_external_bson" remote="lineageos" />
@@ -14,5 +15,11 @@
   <project path="device/motorola/jeter" name="device_motorola_jeter" remote="motolegacy" />
   <project path="device/motorola/jeter-kernel" name="device_motorola_jeter-kernel" remote="motolegacy" />
   <project path="vendor/motorola/jeter" name="vendor_motorola_jeter" remote="motolegacy" />
+
+  <!-- Proton -->
+  <remove-project name="LineageOS/android_external_zlib" />
+  <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" />
 
 </manifest>
