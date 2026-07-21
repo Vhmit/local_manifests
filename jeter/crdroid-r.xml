@@ -12,7 +12,7 @@
 
   <!-- Trees -->
   <project path="device/motorola/jeter" name="device_motorola_jeter" remote="motolegacy" revision="crdroid-11.0" />
-  <project path="device/motorola/jeter-kernel" name="device_motorola_jeter-kernel" remote="motolegacy" />
+  <project path="kernel/motorola/jeter" name="kernel_motorola_jeter" remote="motolegacy" />
   <project path="vendor/motorola/jeter" name="vendor_motorola_jeter" remote="motolegacy" />
 
 </manifest>

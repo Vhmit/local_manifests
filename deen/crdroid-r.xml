@@ -12,7 +12,7 @@
 
   <!-- Trees -->
   <project path="device/motorola/deen" name="device_motorola_deen" remote="motolegacy" revision="crdroid-11.0" />
-  <project path="device/motorola/deen-kernel" name="device_motorola_deen-kernel" remote="motolegacy" />
+  <project path="kernel/motorola/deen" name="kernel_motorola_deen" remote="motolegacy" />
   <project path="vendor/motorola/deen" name="vendor_motorola_deen" remote="motolegacy" />
 
 </manifest>
