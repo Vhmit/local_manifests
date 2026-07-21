@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- Track -->
-  <remote name="sourceorg" fetch="https://github.com/mimir-kernel" revision="lineage-17.1" />
   <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="lineage-17.1" />
   <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-17.1" />
 
@@ -13,7 +12,7 @@
 
   <!-- Trees -->
   <project path="device/motorola/jeter" name="device_motorola_jeter" remote="motolegacy" />
-  <project path="kernel/motorola/jeter" name="android_kernel_motorola_jeter" remote="sourceorg" />
+  <project path="device/motorola/jeter-kernel" name="device_motorola_jeter-kernel" remote="motolegacy" />
   <project path="vendor/motorola/jeter" name="vendor_motorola_jeter" remote="motolegacy" />
 
 </manifest>
