@@ -10,5 +10,5 @@ git clone https://github.com/Vhmit/local_manifests manifests
 ## Sync the ROM+manifest:
 
 ```
-repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
+repo sync
 ```
