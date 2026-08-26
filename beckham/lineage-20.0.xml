@@ -17,6 +17,6 @@
   <project path="device/motorola/msm8998-common" name="device_motorola_msm8998-common" remote="motolegacy" />
   <project path="vendor/motorola/beckham" name="proprietary_vendor_motorola_beckham" remote="motolegacy" />
   <project path="vendor/motorola/msm8998-common" name="vendor_motorola_msm8998-common" remote="motolegacy" />
-  <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998" remote="motolegacy" />
+  <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998" remote="motolegacy" revision="thirteen" />
 
 </manifest>
