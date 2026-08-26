@@ -4,11 +4,13 @@
   <!-- Track -->
   <remote name="motolegacy" fetch="https://github.com/sdm660-motorola" revision="lineage-20.0" />
   <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-20" />
+  <remote name="keys" fetch="https://gitlab.com/schizo-space" revision="TQ3A" />
 
   <!-- Additional -->
   <project path="external/bson" name="android_external_bson" remote="lineageos" />
   <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
   <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
+  <project path="vendor/lineage-priv/keys" name="vendor_signing_keys" remote="keys" />
 
   <!-- Trees -->
   <project path="device/motorola/beckham" name="android_device_motorola_beckham" remote="motolegacy" />
