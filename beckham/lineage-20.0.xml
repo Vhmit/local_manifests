@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Track -->
+  <remote name="motolegacy" fetch="https://github.com/sdm660-motorola" revision="lineage-20.0" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-20" />
+
+  <!-- Additional -->
+  <project path="external/bson" name="android_external_bson" remote="lineageos" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
+  <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
+
+  <!-- Trees -->
+  <project path="device/motorola/beckham" name="android_device_motorola_beckham" remote="motolegacy" />
+  <project path="device/motorola/msm8998-common" name="device_motorola_msm8998-common" remote="motolegacy" />
+  <project path="vendor/motorola/beckham" name="proprietary_vendor_motorola_beckham" remote="motolegacy" />
+  <project path="vendor/motorola/msm8998-common" name="vendor_motorola_msm8998-common" remote="motolegacy" />
+  <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998" remote="motolegacy" />
+
+</manifest>
