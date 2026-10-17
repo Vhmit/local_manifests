@@ -12,7 +12,7 @@
 
   <!-- Trees -->
   <project path="device/motorola/jeter" name="device_motorola_jeter" remote="motolegacy" />
-  <project path="kernel/motorola/jeter" name="kernel_motorola_jeter" remote="motolegacy" />
+  <project path="kernel/motorola/msm8937" name="kernel_motorola_msm8937" remote="motolegacy" />
   <project path="vendor/motorola/jeter" name="vendor_motorola_jeter" remote="motolegacy" />
 
 </manifest>
