@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Track -->
-  <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="thirteen" />
+  <remote name="motolegacy" fetch="https://github.com/Vhmit" revision="lineage-20" />
   <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-20" />
 
   <!-- Additional -->
